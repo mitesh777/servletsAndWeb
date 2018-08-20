@@ -1,0 +1,5 @@
+package com.pratian.travelapp.dao;
+
+public interface AirlineDao {
+
+}

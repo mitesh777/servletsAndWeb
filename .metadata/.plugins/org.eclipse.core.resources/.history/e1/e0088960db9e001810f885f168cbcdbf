@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome to js</h1>
+	
+
+	<script type="text/javascript">
+	var employee = {
+		"name": "Shashi",
+		"id": 123
+	};
+	
+	console.log(employee);
+	employee.basic = 45000;
+	employee.hra = 200;
+	employee.pf = 1200;
+	console.log(employee);
+	
+	employee.getTotalSalary = function(){
+		return (this.basic + this.hra) - this.pf;
+	}
+	
+	console.log(employee.getTotalSalary());
+	</script>
+</body>
+</html>

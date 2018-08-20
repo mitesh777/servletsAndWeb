@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div>
+	<p id="p1">The oldest classical Greek and Latin writing had little
+	 or no space between words and could be written in</p>
+	<p id="p2">This style can be seen in the (handwritten) United States Constitution from 1787. For 
+	additional ornamentation, a hedera 
+	leaf or other symbol can be added to the inter-paragraph whitespace, or put in the indentation space.</p>
+	<p id="p3">Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used 
+		during development or
+	 debugging; the compressed file saves bandwidth and improves performance in production</p>
+	</div>
+	<select id="sel"></select>
+	<button id="hide" class="btn btn-danger">Hide</button>
+	<button id="show" class="btn btn-danger">Show</button>
+	<div id="msg"></div>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		var IDs = [];
+		$("p").each(function(){ IDs.push(this.id); });
+
+	});
+	
+	</script>
+</body>
+</html>

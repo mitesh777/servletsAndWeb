@@ -1,0 +1,19 @@
+
+public class TeamLead extends Employee {
+	double performanceBonus;
+	@Override
+	double getMonthlySalary() {
+		TeamLeadSalaryCalculator tsc = new TeamLeadSalaryCalculator();
+		double teamLeadSalary = tsc.calculateTeamLeadSalary(tl);
+		return teamLeadSalary;
+		//return 0;
+	}
+	public double getPerformanceBonus() {
+		return performanceBonus;
+	}
+	public void setPerformanceBonus(double performanceBonus) {
+		this.performanceBonus = performanceBonus;
+	}
+	
+
+}

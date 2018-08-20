@@ -1,0 +1,9 @@
+package di.example_1;
+
+import org.springframework.core.io.Resource;
+
+public class TestMain1 {
+	public static void main(String[] args) {
+		Resource resource = new ClassPathResource("spring_1.xml");
+	}
+}

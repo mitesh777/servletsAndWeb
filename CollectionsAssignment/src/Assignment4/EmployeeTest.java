@@ -1,0 +1,23 @@
+package Assignment4;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class EmployeeTest {
+	public static void main(String[] args) {
+		//main implementation
+		Employee e1 = new Employee(17873, "Meghna Tunga", 21, 150000.0);
+		Employee e2 = new Employee(17875, "Swati Suman", 21, 1440000.0);
+		Employee e3 = new Employee(17882, "emp2", 22, 150000.0);
+		Employee e4 = new Employee(17786, "emp5", 23, 160000.0);
+		
+		ArrayList<Employee> employees = new ArrayList<Employee>();
+		employees.add(e1);
+		employees.add(e2);
+		employees.add(e3);
+		employees.add(e4);
+		
+		Collections.sort(employees);
+		System.out.println(employees);
+	}
+}

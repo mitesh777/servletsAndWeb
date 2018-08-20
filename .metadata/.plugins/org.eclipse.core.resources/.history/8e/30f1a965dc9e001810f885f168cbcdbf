@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome to js</h1>
+	
+
+	<script type="text/javascript">
+	function Employee(_name,_id,_basic){
+		this.name = _name;
+		this.id = _id;
+		this.basic = _basic;
+	};
+	
+	Employee.getTotalSalary = function(){
+		var hra = this.basic * 0.08;
+		var pf = this.basic * 0.12;
+		return (this.basic + this.hra) - this.pf;
+	}
+	
+	console.log(new Employee('hello',12,41));
+	</script>
+</body>
+</html>

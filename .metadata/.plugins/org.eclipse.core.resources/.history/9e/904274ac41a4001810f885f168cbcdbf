@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div>
+	<a href="#a" class="btn btn-dark">first link</a>
+	<a href="#b" class="btn btn-dark">second link</a>
+	<a href="#c" class="btn btn-dark">third link</a>
+	<a href="#d" class="btn btn-dark">fourth link</a>
+	<a href="#e" class="btn btn-dark">fifth link</a>
+	<a href="#f" class="btn btn-dark">sixth link</a>	
+	</div>
+	<div id="msg"></div>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		alert('hello '+$("a").length);
+		$("msg").text('you have ' + $("a").length + ' anchors ');
+		$("a").click(function(){
+			$("msg").text('you have clicked on ' + this.text + 'link text ' + $(this).attr('href'));
+		});
+	});
+	
+	</script>
+</body>
+</html>

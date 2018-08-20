@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class BankApp {
+	public int checkEquality(ArrayList<Account> accounts) {
+		int equals=0;
+		for(Account account : accounts) {
+			
+		}
+	}
+}

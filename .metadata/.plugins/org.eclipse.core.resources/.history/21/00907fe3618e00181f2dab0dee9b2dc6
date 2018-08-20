@@ -1,0 +1,15 @@
+package Assignment3;
+
+import java.util.Collections;
+import java.util.List;
+
+public class StudentAdmin {
+
+	public void sortStudents(List<Student> students) {
+		Collections.sort(students);
+	}
+	
+	public void createStudent(List<Student> students) {
+		Student student1 = new Student(1001,"name1",80);
+	}
+}

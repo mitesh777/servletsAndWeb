@@ -1,0 +1,19 @@
+import java.util.TreeSet;
+
+public class TreeSetDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Employee> empTreeSet = new TreeSet<>();
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		empTreeSet.add(new Employee(1, "sindhu", 12314));
+		
+		System.out.println(empTreeSet);
+	}
+
+}
+

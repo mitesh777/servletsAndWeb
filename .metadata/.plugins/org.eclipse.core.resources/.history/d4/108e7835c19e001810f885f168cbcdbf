@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome to js</h1>
+	<input type="text" id="txtName" placeholder="Enter your name"/>
+	<button onclick="fun()">click me</button>
+
+	
+
+	<script type="text/javascript">
+	// var x = 1;
+	
+	// function fun1(){
+	// 	x = x+5;
+	// 	var y = 0;
+	// 	y = y+1;
+	// 	console.log(x + " , "+ y);
+	// }
+	
+
+	// function fun2(){
+	// 	x = x+5;
+		
+	// 	y = y+1;
+	// 	console.log(x + " , "+ y);
+	// }
+	// fun1();
+	// fun2();
+
+	function fun(){
+		var txtObj = document.getElementById('txtName');
+		var txtValue = txtObj.value;
+		console.log(txtValue);
+		alert('welcome '+ txtValue);
+	}
+	</script>
+</body>
+</html>

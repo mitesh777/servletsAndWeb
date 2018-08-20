@@ -1,0 +1,19 @@
+package com.pratian.DemoMaven;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringConcatenatorTest {
+
+	@Test
+	public void testConcatenate_whenPassesTwoNullStrings_throwsInvalodOnputException() {
+		// Arrange 
+		StringConcatenator obj = StringConcatenator();
+		//Act 
+		obj.concatenate(null,null);
+		//Assert
+		fail("Not yet implemented");
+	}
+
+}

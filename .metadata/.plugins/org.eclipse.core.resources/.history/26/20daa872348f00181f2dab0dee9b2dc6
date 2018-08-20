@@ -1,0 +1,14 @@
+package AccountAssignment;
+
+import java.sql.Connection;
+import java.util.Date;
+
+public class AccountDemo {
+	public static void main(String[] args) {
+		Connection conn = MySQLConnector.connectToDB();
+		AccountDAO dao = new DAOImplementation(conn);
+		Account acc1 = new Account( "abc123", 13423.0, 42, new Date(), null);
+		//dao.openAccount(acc1);
+		dao.closeAccount(1);
+	}
+}

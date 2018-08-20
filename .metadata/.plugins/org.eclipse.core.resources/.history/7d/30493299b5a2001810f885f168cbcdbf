@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button onclick="getAllUsers()">get all</button>
+	<button onclick="getUserById()">get user by id</button>
+	<button onclick="updateUser()">update user</button>
+	<button onclick="deleteUser()">delete user</button>
+
+	<script type="text/javascript">
+	
+	//var xhr = null;
+	
+	
+	
+	function getXhr(){
+		var xhr = null;
+		try{
+			xhr = new XMLHttpRequest();
+		}catch(e){
+			alert("your browser has a problem");
+		}
+		if(xhr=='undefined' || xhr == null){
+			xhr = new ActivateXObject("Msxml2.XMLHTTP3.0");
+		}
+		return xhr;
+	}
+	
+	var baseUrl = "https://reqres.in/api/";
+	
+	function getAllUsers(){
+		var xhr = getXhr();
+		console.log(xhr);
+		var url = baseUrl + "users";
+			xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(JSON.parse(xhr.responseText));
+			}
+		}
+		xhr.open("GET",url,true);
+		xhr.send();
+	}
+	
+	function getUserById(){
+		var xhr = getXhr();
+		var id = 1;
+		console.log(xhr);
+		var url = baseUrl + "users/"+ id;
+			xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(JSON.parse(xhr.responseText));
+			}
+		}
+		xhr.open("GET",url,true);
+		xhr.send();
+	}
+	
+	function deleteUser(){
+		var xhr = getXhr();
+		var id = 1;
+		console.log(xhr);
+		var url = baseUrl + "users/"+ id;
+			xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status ==204){
+				console.log('DELETED');
+			}
+		}
+		xhr.open("DELETE",url,true);
+		xhr.send();
+	}
+	
+	function updateUser(){
+		var xhr = getXhr();
+		var id = 1;
+		console.log(xhr);
+		var dataModified = {
+			    "name": "morpheus",
+			    "job": "zion resident"
+			};
+		var url = baseUrl + "users/"+ id;
+			xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(JSON.parse(xhr.responseText));
+			}
+		}
+		xhr.open("PUT",url,true);
+		xhr.send(dataModified);
+	}
+	
+	</script>
+</body>
+</html>

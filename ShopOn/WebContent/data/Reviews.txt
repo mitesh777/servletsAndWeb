@@ -1,0 +1,551 @@
+﻿[
+	{
+		"Id":"1",
+		"Desc":"Portability comes to the palm with the iPad Mini with Retina Display that balances the perfect design that Apple is renowned for with a spec line-up that promises great performance.",
+		"RAM":"1GB",
+	    "Processor":"A7 Chip with M7 Co-processor",
+		"Battery":"1750mAh",		
+		"Reviews" : {
+			"name":"Rose",
+			"comment":"I rather like this device It is purely for my apps I really can't use it for much else but if we are talking about entertaining myself then this is perfect I still have to have a laptop to do my work though."
+		}
+	},
+	{
+		"Id":"2",
+		"Desc":"No Description Available",
+		"RAM":"512 MB",
+		"Processor":"A5 Chip Processor",
+		"Battery":"1750mAh",
+		"Reviews" : {
+			"name":"Mohan Raj",
+			"comment":"Genuine sealed with 1 year apple warranty checked serial number on apple website and the phone is brand new un activated Best price better than apple store too Just awesome and the fastest shipping I have ever seen"
+		}
+	},
+	{
+		"Id":"3",
+		"Desc":"Put away that basic phone and be an iPhone user with the Apple 5S. You can now browse with better speed, protect your data with the fingerprint scanner, and look stylish as this phone comes with the Apple signature design, lightweight and very comfortable to hold.",
+		"RAM":"1GB",
+		"Processor":"1.3 GHz A7 Chip",
+		"Battery":"1560mAh",
+		"Reviews" : {
+			"name":"Kaushik Das",
+			"comment":"A masterpiece. Beauty and beast!Camera is amazing. Finger print scanner works flawlessly.A perfect phone."
+		}
+	},
+	{
+		"Id":"4",
+		"Desc":"No Description Available",
+	    "RAM":"2GB",
+	    "Processor":"1.84 GHz A9 Chip with 64-bit Architecture and M9 Motion Co-processor",
+		"Battery":"2750mAh",
+		"Reviews" : {
+			"name":"Salman Khan",
+			"comment":"Nothing is better than iphone 6s plus if something coming best then it its iphone7 now its not only abt class but damn phone i used in my life looking forward to by iphone 7 wen its launching at sep 7 nothing is beter than iphone"
+		}
+	},
+	{
+		"Id":"5",
+		"Desc":"A wise man once said, “A phone is not a phone until it’s an iPhone.” And that’s the reason you should totally grab this newest entrant in the market, iPhone 6s from Apple to your gadget collection right away.",
+		"RAM":"2GB",
+		"Processor":"1.84 GHz A9 Chip with 64-bit Architecture and M9 Motion Co-processor",
+		"Battery":"1715mAh",
+		"Reviews" : {
+			"name":"ABHISHEK AGARWAL",
+			"comment":"First impression - Very light and slim....Perfect to hold...awesome display and graphics..Gaming is smooth as butter..."
+		}
+	},
+	{
+		"Id":"6",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2GHz Octa-core",
+		"Battery":"3450mAh",
+		"Reviews" : {
+			"name":"Shalini Menon",
+			"comment":"We ordered this beauty as birthday gift from me in exchange of my Samsung Grand. The entire process of collecting the old phone and delivering the new phone was quick and seamless. The phone was delivered well before the promised date and in perfect condition. Hassle-free documentation and easy exchange...!"
+		}
+	},
+	{
+		"Id":"7",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.4GHz Quad-core",
+		"Battery":"2470mAh",
+		"Reviews" : {
+			"name":"Appu",
+			"comment":"This mobile phone doesn't supports vr headset.No gyroscope sensor Camera focus problem."
+		}
+	},
+	{
+		"Id":"",
+		"Desc":"If you love taking pictures, the Moto X Style is a phone that’s designed for you. Featuring an impressive 21 MP primary camera and a 5 MP secondary camera, this phone lets you take crisp and clear pictures under any light.",
+		"RAM":"3GB",
+		"Processor":"1.8GHz Hexa-Core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"Raghu",
+			"comment":"Hey guys received this on 25th Oct, looking great phone and pretty cool in hands. its little heat while playing games and also battery drain while playing but TURBO is awesome 100% in just 45mits.Built quality is nice and back camera quality is awesome compare to previews moto mobiles, front camera is okay not bad at all.. then 4k shoot is freaking awesome"
+		}
+	},
+	{
+		"Id":"9",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.5GHz Dual-Core",
+		"Battery":"2515mAh",
+		"Reviews" : {
+			"name":"Appu Raj",
+			"comment":"Very Bad gaming Experience"
+		}
+	},
+	{
+		"Id":"10",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.5GHz Dual-Core",
+		"Battery":"2000mAh",
+		"Reviews" : {
+			"name":"Vineet",
+			"comment":"Good but not the best one..."
+		}
+	},
+	{
+		"Id":"11",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2.2GHz Quad-Core",
+		"Battery":"3450mAh",
+		"Reviews" : {
+			"name":"Kumar",
+			"comment":"Big crap phone. I Didn like the design"
+		}
+	},
+	{
+		"Id":"12",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.2GHz Quad-core",
+		"Battery":"2200mAh",
+		"Reviews" : {
+			"name":"Peter",
+			"comment":"After upgrade to Win 10 bluetooth issues prevent to connect and have a steady talk in my car. Any suggestions?"
+		}
+	},
+	{
+		"Id":"13",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"2.2GHz Quad-Core",
+		"Battery":"2420mAh",
+		"Reviews" : {
+			"name":"Gee",
+			"comment":"It's a great phone well built, hey it's a Nokia need i say more. A little dated now, but still works well and still in good condition and no marks on the screen. Not bad for a two year old phone. Battery can last about a two days with ligh..."
+		}
+	},
+	{
+		"Id":"14",
+		"Desc":"No Description Available",
+		"RAM":"512MB",
+		"Processor":"1GHz Dual-Core",
+		"Battery":"1500mAh",
+		"Reviews" : {
+			"name":"Gajendra Meena",
+			"comment":"nokia xl is not good as per price, moto e is best in same price with low cost battery is not good with always hit generating, when using music and video."
+		}
+	},
+	{
+		"Id": "15",
+		"Desc":"No Description Available",
+		"RAM":"768MB",
+		"Processor":"1GHz Dual-core",
+		"Battery":"1500mAh",
+		"Reviews" : {
+			"name":"PRADEEP SRINIVAS KADAMATI",
+			"comment":"identical to Nokia X but a little bit advances for less increase in price. You can feel the change in process speed if you keep both X and X+ side by side....."
+		}
+	},
+	{
+		"Id":"16",
+		"Desc":"No Description Available",
+	    "RAM":"512MB",
+		"Processor":"1.3GHz Dual-Core",
+		"Battery":"1800mAh",
+		"Reviews" : {
+			"name":"Nanang Mossang",
+			"comment":"Body shape is fine Camera quality is 5mp but does not provides that excellent picture as of other 5mp camra quality. However, Camera also provides like other capture resolutions Panorama, Sports, Night, Scenery clicks Video quality is okay.I was looking for good quality of Picture & videos at this price but disappointed!!"
+		}
+	},
+	{
+		"Id":"17",
+		"Desc":"No Description Available",
+		"RAM":"4GB",
+		"Processor":"2.1GHz Octa-Core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"Sanchita M",
+			"comment":"This has matched all expectations and we are very happy with this phone."
+		}
+	},
+	{
+		"Id":"18",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2.7GHz Quad-Core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"Rohit",
+			"comment":"Two main problems so far...battery gets exhausted very quickly and sometimes it becomes hot"
+		}
+	},
+	{
+		"Id":"19",
+		"Desc":"No Description Available",
+		"RAM":"1.5GB",
+		"Processor":"1.2GHz Quad-Core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"Ravi Kanth",
+			"comment":"Mobile is Slim n good. Battery backup is very good. No Lags and the performance is good."
+		}
+	},
+	{
+		"Id":"20",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2.1GHz + 1.5GHz Octa-Core",
+		"Battery":"2550mAh",
+		"Reviews" : {
+			"name":"Amith",
+			"comment":"Still i couldn update my device to lollipop"
+		}
+	},
+	{
+		"Id":"21",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2.1GHz + 1.5GHz Octa-Core",
+		"Battery":"2550mAh",
+	    "Reviews" : {
+			"name":"Prasan",
+			"comment":"Dont go for samsung when you are spending this much money, iPhone is much reliable and consumer friendly"
+		}
+	},
+	{
+		"Id":"22",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"2.1GHz + 1.5GHz Octa-Core",
+		"Battery":"2600mAh",
+		"Reviews" : {
+			"name":"pushpal singh",
+			"comment":"Best phone i have ever used . As i shifted from iphone 6 plus , this phone is way better phone as lighter than any phone with this screen size, premium looks even iphone is nowhere if we talk about looks simply beauty in you hand, performance is flawless,lag free,never hang. This samsung phone kill any iphone or any other android till date. "
+		}
+	},
+	{
+		"Id":"23",
+		"Desc":"No Description Available",
+		"RAM":"4GB",
+		"Processor":"2.3GHz + 1.6GHz Octa-Core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"Rajat Dey Sarkar",
+			"comment":"Everything is good. But I am missing the front flash feature. Camera is excellent. Front cam is also v good. Slim phone, not much width. Screen touch is good. Look wise : superb. But should have dual speaker and front flash."
+		}
+	},
+	{
+		"Id":"24",
+		"Desc":"No Description Available",
+		"RAM":"4GB",
+		"Processor":"2.3GHz + 1.6GHz Octa-Core",
+		"Battery":"3600mAh",
+		"Reviews" : {
+			"name":"Madhu .k",
+			"comment":"Super mobile it is not a mobile it is a beast and seller is very good I raised for replacement I got within 24hours know mobile very if have any plans buy this mobile it will proveid 100%satisfaction"
+		}
+	},
+	{
+		"Id":"25",
+		"Desc":"With a slim metal body, the Micromax Canvas 6 has a stylish look. Designed with a fingerprint scanner, the phone helps you keep all your personal data secure. If you are someone who needs to multitask, this phone comes with an octa core processor to let you get tasks done with speed.",
+		"RAM":"3GB",
+		"Processor":"1.3GHz Octa-core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"suraj singh",
+			"comment":"Mobile gets heat very quickly... Otherwise it is ok design is good."
+		}
+	},
+	{
+		"Id":"26",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"m.kumars",
+			"comment":"battery backup well cam average phone looking ok."
+		}
+	},
+	{
+		"Id":"27",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.3 GHz Quad-core",
+		"Battery":"2400mAh",
+		"Reviews" : {
+			"name":"Suryansh Gaur",
+			"comment":"The F103 Pro is a great camera for taking good pictures. The phone feels quick and fast for a budget offering and does a relatively great job at taking crisp pictures."
+		}
+	},
+	{
+		"Id":"28",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"1850mAh",
+		"Reviews" : {
+			"name":"Rohan Sundriyal",
+			"comment":"A great looking device with awesome features. I ordered it few days back, loved the design. I tested the camera in daylight, I was surprised by the clarity. Low light images are not good but are ok with this price bracket."
+		}
+	},
+	{
+		"Id":"29",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.3GHz Octa-core",
+		"Battery":"3150mAh",
+		"Reviews" : {
+			"name":"Debajyoti Mandal",
+			"comment":"Touch sense is good, battery backup good, camera quality very good, but it's fleeing hot at back side when it is run long time. Otherwise it's performance is good as still now."
+		}
+	},
+	{
+		"Id":"30",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.2GHz Quad-core",
+		"Battery":"2250mAh",
+		"Reviews" : {
+			"name":"Mohan",
+			"comment":"I have gifted it to my Dad. Despite some cons there are lots of pros of this product. Customer care service was very helpful to resolve some defects like screen shivering. Now its working perfectly and my Dad is happy with Gionee G3. :)"
+		}
+	},
+	{
+		"Id":"31",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.5GHz Octa-core",
+		"Battery":"2550mAh",
+		"Reviews" : {
+			"name":"Varsha Roy",
+			"comment":"Adorable fuctions and Features... Luv IT"
+		}
+	},
+	{
+		"Id":"32",
+		"Desc":"No Description Available",
+	    "RAM":"4GB",
+		"Processor":"1.8GHz Octa-core",
+		"Battery":"3000mAh",
+		"Reviews" : {
+			"name":"ARIVAZHAGAN Dass",
+			"comment":"I just bought this phone 1 month back and really I enjoyed the features given by vivo. Vivo is better than the oppo . So go ahead and get it"
+		}
+	},
+	{
+		"Id":"33",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.2GHz Quad-core",
+		"Battery":"2350mAh",
+		"Reviews" : {
+			"name":"Niraj singh",
+			"comment":"hello friends..i m using this phone from 1 weeks..very good mobile in this range..no heating..smooth phone ..camera is good..sound ok and battery good..no hang.. so that i can say the phone is best in this range."
+		}
+	},
+	{
+		"Id":"34",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.2GHz Dual-core",
+		"Battery":"2200 mAh",
+		"Reviews" : {
+			"name":"ganpat bishnoi",
+			"comment":"Nice mobile with price range Good camera quality and good looking"
+		}
+	},
+	{
+		"Id":"35",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1GHz Quad-core",
+		"Battery":"1750mAh",
+		"Reviews" : {
+			"name":"Sunny Kumar",
+			"comment":"Bad picture quality... touch not smooth... heating problem.. deem led Flash.. design good"
+		}
+	},
+	{
+		"Id":"36",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-Core",
+		"Battery":"2820mAh",
+		"Reviews" : {
+			"name":"Anoop U.S",
+			"comment":"Average product...No words to prove it's because a micromax product.. He he"
+		}
+	},
+	{
+		"Id":"37",
+		"Desc":"No Description Available",
+		"RAM":"10 MB Expandable Upto 8gb",
+		"Battery":"850mAh",
+		"Reviews" : {
+			"name":"Vipul Bathwal",
+			"comment":"Look wise this phone is great and eye catchy for girls. But if one need good features, this phone is not suggested. this cost 4k and still no good feature. just 10 mb internal memory, no wifi, no 3g, camera quality just ok ok, Battery too bad, no voice recording, no flash, no as such OS (like Java), net is ok ok."
+		}
+	},
+	{
+		"Id":"38",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-Core",
+		"Battery":"2500mAh",
+		"Reviews" : {
+			"name":"Pramodh",
+			"comment":"Good Phone for the specified price"
+		}
+	},
+	{
+		"Id":"39",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.5 GHz Octa-Core",
+		"Battery":"2200mAh",
+		"Reviews" : {
+			"name":"Ajit Jaiswal",
+			"comment":"used it for 2 days and returning it back. Phone is heating a lot. it cannot be touched when it is charging. low light picture quality taken from the rear camera with flash is very very poor."
+		}
+	},
+	{
+		"Id":"40",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.2 GHz Quad-Core",
+		"Battery":"2820mAh",
+		"Reviews" : {
+			"name":"Dharmendrakumar Patel",
+			"comment":"Apps can't be moved to SD card... otherwise nice smartphone.. But 11/16 GB is enough room..Camera captures nice detail.."
+		}
+	},
+	{
+		"Id":"41",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.2GHz Quad-core",
+		"Battery":"2000mAh",
+		"Reviews" : {
+			"name":"Mohammed jeelani basha.N",
+			"comment":"The only issue is over heating while on browsing and on phone calls,it is happens in few minutes while using as phone cals and brws."
+		}
+	},
+	{
+		"Id":"42",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"4000mAh",
+		"Reviews" : {
+			"name":"Akhtar Handa",
+			"comment":"very good look / style & configuration but getting problem in speaker and network flipkart sealing defective pieces, that's why its always cheaper from others"
+		}
+	},
+	{
+		"Id":"43",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"2450mAh",
+		"Reviews" : {
+			"name":" Premankur Sarkar",
+			"comment":"For first time user and having low budget in hand don't think twice to buy. Overall performance is good but there is low microfonic sound problem."
+		}
+	},
+	{
+		"Id":"44",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"2300mAh",
+		"Reviews" : {
+			"name":"Deobali Pathak",
+			"comment":"good phone. but the back cover which came with the box was of lowest quality. cracked in a weeks time."
+		}
+	},
+	{
+		"Id":"45",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.4GHz Octa-core",
+		"Battery":"2000 mAh",
+		"Reviews" : {
+			"name":"Usha jain",
+			"comment":"Best phone good conditions The Intex Aqua Xtreme 2 is powerful, fast and fits in the palm of your hand. But can a better camera, L Photos and pressure-sensitive 'good Touch' screen keep it on top of its game"
+		}
+	},
+	{
+		"Id":"46",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.8GHz Octa-core",
+		"Battery":"3500mAh",
+		"Reviews" : {
+			"name":"Sihab Patel",
+			"comment":"Reliance jio 4g enabled,Good battery backup,No heating issue,Best sound amplifier,Easy use"
+		}
+	},
+	{
+		"Id":"47",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"4x1.4GHz + 2x1.8GHz Hexa-core",
+		"Battery":" 3500mAh",
+		"Reviews" : {
+			"name":"Sasi Kumar",
+			"comment":"hello friends recentally i will purchase lenovo vibe x3 mobile white colour . this mobile is stylus and camera is so so good . i like this mobile very much"
+		}
+	},
+	{
+		"Id":"48",
+		"Desc":"No Description Available",
+		"RAM":"3GB",
+		"Processor":"1.3GHz Octa-core",
+		"Battery":"3300mAh",
+		"Reviews" : {
+			"name":"Divaksh",
+			"comment":"Lenovo is doing well with the smartphone segment, now they have Moto too and to slap Xiaomi's upcoming Redmi Note 3 and Coolpad Note 3 they launched K4 note so I expected something more from Lenovo. Don't get me wrong K4 note is a really good device but at this price tag, it fails to do what it should do."
+		}
+	},
+	{
+		"Id":"49",
+		"Desc":"No Description Available",
+		"RAM":"1GB",
+		"Processor":"1.3GHz Quad-core",
+		"Battery":"2000mAh",
+		"Reviews" : {
+			"name":"Shyam Pushpan",
+			"comment":"The mobile charger which come with lenovo A1000 is not working."
+		}
+	},
+	{
+		"Id":"50",
+		"Desc":"No Description Available",
+		"RAM":"2GB",
+		"Processor":"1.5GHz Octa-core",
+		"Battery":"2900mAh",
+		"Reviews" : {
+			"name":"Manickaraj",
+			"comment":"The lenovo phones are having touch problem after using it for few months. "
+		}
+	}
+]

@@ -1,0 +1,52 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.pratian.library.model.Book"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>View Book</title>
+</head>
+<body>
+
+	<%
+	//ArrayList<Book> books = (ArrayList<Book>)request.getAttribute("allBooksList");
+	Book book = (Book)request.getAttribute("book");
+	//System.out.println(book);
+	
+	//Book book = books.get(id); 
+	%>
+	<h2><%= book.getTitle() %></h2>
+	
+	<table  border="1">
+	<tr>
+	<th> Book ID</th> <th> ISBN </th> 
+	<th> Title </th>
+	<th> Publication </th> <th> Category </th> 
+	<th> Price </th> <th> Stock Count </th> <th> authorId </th>  
+	</tr>
+	
+	<tr>
+		<td>${book.id}</td>
+		<td>${book.ISBN}</td>
+		<td>${book.title}</td>
+		<td>${book.publication}</td>
+		<td>${book.category}</td>
+		<td>${book.price}</td>
+		<td>${book.stockCount}</td>
+		<td>${book.authId}</td>
+	</tr>
+	
+	</table>
+	<div align>
+	<form action="AddToBasketServlet" >
+		
+		Quantity
+		<%int quantity = book.getStockCount(); %>
+		<% for (int j = 0; j < quantity; j++) { %>
+	</form>
+	<a href="AddToBasketServlet?bookId=${book.id}" >Add to Basket</a>
+	</div>	
+</body>
+</html>

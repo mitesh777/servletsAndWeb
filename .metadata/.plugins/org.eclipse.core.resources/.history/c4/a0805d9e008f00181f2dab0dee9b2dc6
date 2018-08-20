@@ -1,0 +1,43 @@
+package com.pratian.jdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class ResultSetDemo {
+	
+	public void readFromAirlines() {
+		// TODO Auto-generated method stub
+		Connection connection = MySQLConnector.connectToDB();
+		try {
+			Statement statement = connection.createStatement();
+			String sql = "select * from airlines";
+			ResultSet rs = statement.executeQuery(sql);
+			displayResultSet(rs);
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private void displayResultSet(ResultSet resultSet) {
+		// TODO Auto-generated method stub
+		try {
+			while(resultSet.next()) {
+				
+			}
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new ResultSetDemo().readFromAirlines();
+	}
+
+	
+
+}

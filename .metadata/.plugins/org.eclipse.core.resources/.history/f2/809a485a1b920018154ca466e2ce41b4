@@ -1,0 +1,9 @@
+
+public class TryOne {
+	public static void main(String args[]) { 
+		int 
+		num
+		= 5; 
+		System.out.println("Value is -" + ((num < 5) ? 9.0 : 9)); 
+	} 
+}

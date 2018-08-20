@@ -1,0 +1,360 @@
+﻿[
+	{
+		"Id":"1",
+		"ProductName":"Apple I-Pad Mini",
+		"ImageURL":"images/Apple/apple-ipad-mini-3-new.jpg",
+		"Price":"25699",
+		"Company" : "Apple"
+	},
+	{
+		"Id":"2",
+		"ProductName":"Apple I-Phone 4s",
+		"ImageURL":"images/Apple/apple-iphone-4s-new.jpg",
+		"Price":"28900",
+		"Company" : "Apple"
+	},
+	{
+		"Id":"3",
+		"ProductName":"Apple I-Phone 5s",
+		"ImageURL":"images/Apple/apple-iphone-5s-ofic.jpg",
+		"Price":"38269",
+		"Company" : "Apple"
+	},
+	{
+		"Id":"4",
+		"ProductName":"Apple I-Phone 6s Plus",
+		"ImageURL":"images/Apple/apple-iphone-6s-plus.jpg",
+		"Price":"73999",
+		"Company" : "Apple"
+	},
+
+	{
+		"Id":"5",
+		"ProductName":"Apple I-Phone 6s",
+		"ImageURL":"images/Apple/apple-iphone-6s1.jpg",
+		"Price":"46474",
+		"Company" : "Apple"
+	},
+	{
+		"Id":"6",
+		"ProductName":"Moto Nexus 6",
+		"ImageURL":"images/Moto/moto-nexus-6.jpg",
+		"Price":"43999",
+		"Company" : "Moto"
+	},
+	{
+		"Id":"7",
+		"ProductName":"Motorola Gen 3",
+		"ImageURL":"images/Moto/motorola-moto-g-3rd-gen-r.jpg",
+		"Price":"12499",
+		"Company" : "Moto"
+	},
+	{
+		"Id":"8",
+		"ProductName":"Motorola X",
+		"ImageURL":"images/Moto/motorola-moto-x-2014.jpg",
+		"Price":"18499",
+		"Company" : "Moto"
+	},
+
+	{
+		"Id":"9",
+		"ProductName":"Black Berry Classic",
+		"ImageURL":"images/BB/BlackBerry-Classic.jpg",
+		"Price":"30500",
+		"Company" : "BB"
+	}
+	,
+
+	{
+		"Id":"10",
+		"ProductName":"Black Berry Leap",
+		"ImageURL":"images/BB/blackberry-leap1.jpg",
+		"Price":"21325",
+		"Company" : "BB"
+	},
+
+	{
+		"Id":"11",
+		"ProductName":"Black Berry Passport",
+		"ImageURL":"images/BB/blackberry-passport-1.jpg",
+		"Price":"39999",
+		"Company" : "BB"
+	},
+	{
+		"Id":"12",
+		"ProductName":"Nokia Lumia 735",
+		"ImageURL":"images/Nokia/nokia-lumia-735.jpg",
+		"Price":"17499",
+		"Company" : "Nokia"
+	}
+	,
+	{
+		"Id":"13",
+		"ProductName":"Nokia Lumia 930",
+		"ImageURL":"images/Nokia/nokia-lumia-930-new.jpg",
+		"Price":"27299",
+		"Company" : "Nokia"
+	}
+	,
+	{
+		"Id":"14",
+		"ProductName":"Nokia X1",
+		"ImageURL":"images/Nokia/nokia-xl.jpg",
+		"Price":"18490",
+		"Company" : "Nokia"
+	},
+	{
+		"Id":"15",
+		"ProductName":"Nokia X Plus",
+		"ImageURL":"images/Nokia/nokia-x-plus.jpg",
+		"Price":"4980",
+		"Company" : "Nokia"
+	},
+	{
+		"Id":"16",
+		"ProductName":"Samsung Galaxy J1",
+		"ImageURL":"images/Samsung/samsung-galaxy-j1-ace.jpg",
+		"Price":"6398",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"17",
+		"ProductName":"Samsung Galaxy Note 5",
+		"ImageURL":"images/Samsung/samsung-galaxy-note5.jpg",
+		"Price":"47900",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"18",
+		"ProductName":"Samsung Note Edge",
+		"ImageURL":"images/Samsung/samsung-galaxy-note-edge1.jpg",
+		"Price":"43500",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"19",
+		"ProductName":"Samsung Galaxy On 7",
+		"ImageURL":"images/Samsung/samsung-galaxy-on7.jpg",
+		"Price":"13899",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"20",
+		"ProductName":"Samsung Galaxy S6",
+		"ImageURL":"images/Samsung/samsung-galaxy-s6.jpg",
+		"Price":"26900",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"21",
+		"ProductName":"Samsung Galaxy S6",
+		"ImageURL":"images/Samsung/samsung-galaxy-s6-cdma.jpg",
+		"Price":"27999",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"22",
+		"ProductName":"Samsung Galaxy S6 Edge Plus",
+		"ImageURL":"images/Samsung/samsung-galaxy-s6-edge-plus.jpg",
+		"Price":"34890",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"23",
+		"ProductName":"Samsung Galaxy S7",
+		"ImageURL":"images/Samsung/Samsung-galaxy-S7.jpg",
+		"Price":"43400",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"24",
+		"ProductName":"Samsung Galaxy S7 Edge",
+		"ImageURL":"images/Samsung/Samsung-galaxy-S7-edge.jpg",
+		"Price":"43400",
+		"Company" : "Samsung"
+	},
+	{
+		"Id":"25",
+		"ProductName":"Micromax Canvas 6",
+		"ImageURL":"images/Micromax/micromax-canvas-6.jpg",
+		"Price":"13999",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"26",
+		"ProductName":"Micromax Canvas Juice 4",
+		"ImageURL":"images/Micromax/micromax-Canvas-Juice-4.jpg",
+		"Price":"5299",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"27",
+		"ProductName":"Gionee F103",
+		"ImageURL":"images/Gionee/gionee-F103.jpg",
+		"Price":"11999",
+		"Company" : "Gionee"
+	},
+	{
+		"Id":"28",
+		"ProductName":"Gionee P5 mini",
+		"ImageURL":"images/Gionee/gionee-P5-mini.jpg",
+		"Price":"5349",
+		"Company" : "Gionee"
+	},
+	{
+		"Id":"29",
+		"ProductName":"Gionee S6s",
+		"ImageURL":"images/Gionee/gionee-S6s.jpg",
+		"Price":"17890",
+		"Company" : "Gionee"
+	},
+	{
+		"Id":"30",
+		"ProductName":"Gionee G3",
+		"ImageURL":"images/Gionee/gionee-G3.jpg",
+		"Price":"10000",
+		"Company" : "Gionee"
+	},
+	{
+		"Id":"31",
+		"ProductName":"Vivo V3",
+		"ImageURL":"images/Vivo/vivo-V3.jpg",
+		"Price":"13699",
+		"Company" : "Vivo"
+	},
+	{
+		"Id":"32",
+		"ProductName":"Vivo V3 max",
+		"ImageURL":"images/Vivo/vivo-V3-max.jpg",
+		"Price":"18900",
+		"Company" : "Vivo"
+	},
+	{
+		"Id":"33",
+		"ProductName":"Vivo y51L",
+		"ImageURL":"images/Vivo/vivo-y51L.jpg",
+		"Price":"9499",
+		"Company" : "Vivo"
+	},
+	{
+		"Id":"34",
+		"ProductName":"Vivo Y31",
+		"ImageURL":"images/Vivo/vivo-Y31.jpg",
+		"Price":"8990",
+		"Company" : "Vivo"
+	},
+	{
+		"Id":"35",
+		"ProductName":"Micromax Bolt Selfie",
+		"ImageURL":"images/Micromax/Micromax-Bolt-Selfie.jpg",
+		"Price":"5499",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"36",
+		"ProductName":"Micromax Canvas Tab P290",
+		"ImageURL":"images/Micromax/Micromax-Canvas-Tab-P290.jpg",
+		"Price":"3590",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"37",
+		"ProductName":"Micromax Bling",
+		"ImageURL":"images/Micromax/Micromax-Bling.jpg",
+		"Price":"4290",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"38",
+		"ProductName":"Micromax Canvas Spark",
+		"ImageURL":"images/Micromax/Micromax-Canvas-Spark.jpg",
+		"Price":"4199",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"39",
+		"ProductName":"Micromax Yureka Plus",
+		"ImageURL":"images/Micromax/Micromax-Yureka-Plus.jpg",
+		"Price":"8690",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"40",
+		"ProductName":"Micromax Canvas Play Q469",
+		"ImageURL":"images/Micromax/Micromax-Canvas-Play-Q469.jpg",
+		"Price":"12399",
+		"Company" : "Micromax"
+	},
+	{
+		"Id":"41",
+		"ProductName":"Intex Aqua Q7 Pro",
+		"ImageURL":"images/Intex/Intex-Aqua-Q7-Pro.jpg",
+		"Price":"4090",
+		"Company" : "Intex"
+	},
+	{
+		"Id":"42",
+		"ProductName":"Intex Aqua Power 2",
+		"ImageURL":"images/Intex/Intex-Aqua-Power-2.jpg",
+		"Price":"5999",
+		"Company" : "Intex"
+	},
+	{
+		"Id":"43",
+		"ProductName":"Intex Aqua Ring",
+		"ImageURL":"images/Intex/Intex-Aqua-Ring.jpg",
+		"Price":"4599",
+		"Company" : "Intex"
+	},
+	{
+		"Id":"44",
+		"ProductName":"Intex Aqua Ace",
+		"ImageURL":"images/Intex/Intex-Aqua-Ace.jpg",
+		"Price":"8794",
+		"Company" : "Intex"
+	},
+	{
+		"Id":"45",
+		"ProductName":"Intex Aqua Extreme 2",
+		"ImageURL":"images/Intex/Intex-Aqua-Extreme-2.jpg",
+		"Price":"6499",
+		"Company" : "Intex"
+	},
+	{
+		"Id":"46",
+		"ProductName":"Lenovo Vibe K5 Note",
+		"ImageURL":"images/Lenovo/Lenovo-Vibe-K5-Note.jpg",
+		"Price":"13499",
+		"Company" : "Lenovo"
+	},
+	{
+		"Id":"47",
+		"ProductName":"Lenovo Vibe X3",
+		"ImageURL":"images/Lenovo/Lenovo-Vibe X3.jpg",
+		"Price":"24997",
+		"Company" : "Lenovo"
+	},
+	{
+		"Id":"48",
+		"ProductName":"Lenovo Vibe K4 Note",
+		"ImageURL":"images/Lenovo/Lenovo-Vibe-K4-Note.jpg",
+		"Price":"10999",
+		"Company" : "Lenovo"
+	},
+	{
+		"Id":"49",
+		"ProductName":"Lenovo A1000",
+		"ImageURL":"images/Lenovo/Lenovo-A1000.jpg",
+		"Price":"3990",
+		"Company" : "Lenovo"
+	},
+	{
+		"Id":"50",
+		"ProductName":"Lenovo A7000",
+		"ImageURL":"images/Lenovo/Lenovo-A7000.jpg",
+		"Price":"9999",
+		"Company" : "Lenovo"
+	}
+	
+]

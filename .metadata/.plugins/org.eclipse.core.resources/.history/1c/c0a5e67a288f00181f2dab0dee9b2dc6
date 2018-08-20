@@ -1,0 +1,41 @@
+package AccountAssignment;
+
+public class DAOImplementation implements AccountDAO{
+
+	@Override
+	public void openAccount(Account acc) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void closeAccount(int accNo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdraw(int accNo, double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit(int accNo, double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getBalance(int accNo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Account getAccount(int accno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

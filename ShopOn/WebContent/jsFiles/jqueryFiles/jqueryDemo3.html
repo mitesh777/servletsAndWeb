@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	
+	<div>One</div>
+	<div>two</div>
+	<div>three</div>
+	<div>four</div>
+	<div>five</div>
+	<span class="btn btn-primary" id="hide">Hide</span>
+	<span class="btn btn-danger" id="show">Show</span>
+	
+	
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		$("#hide").click(function(){
+			$("div").hide();
+		});
+		$("#show").click(function(){
+			$("div").show();
+		});
+	});
+	
+	</script>
+</body>
+</html>

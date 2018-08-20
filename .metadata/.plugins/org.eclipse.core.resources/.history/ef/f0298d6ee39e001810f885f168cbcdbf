@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Contact app</h1>
+	<hr>
+	<input type="text" id="txtName" onkeypress="emptyError()" placeholder="Enter Name"/>
+	<input type="text" id="txtMobile"  placeholder="Enter Mobile Number"/>
+	<label id="errorLabel" ></label>
+	<br>
+	<button id="btnAdd" onclick="addContact()">Add Contact</button>
+	<br>
+	<h4>Contacts</h4>
+	<div>
+	<ol id="contacts">
+		
+	</ol>
+	</div>
+	<script type="text/javascript">
+		
+		var contacts = [];
+		
+		function Contact(_name,_mobile){
+			this.name = _name;
+			this.mobile = _mobile;
+		};
+		
+		//add contact
+		function addContact(){
+			var contactObj = document.getElementById("txtName");
+			var mobileObj = document.getElementById("txtMobile");
+			var name = contactObj.value;
+			var mobile = mobileObj.value;
+			var contact = new Contact(name,mobile);
+			var errorMsgObj = document.getElementById("errorLabel");
+			//alert(name);
+			if(name===""){
+				errorMsgObj.innerHTML="name cannot be empty";
+			}
+			else{
+				errorMsgObj.innerHTML="";
+				contactObj.value = "";
+				mobileObj.value = "";
+				contacts.push(contact);
+				displayContacts();
+			}
+		}
+		
+		function displayContacts(){
+			var contactsObj = document.getElementById("contacts");
+			var str="";
+			for(var i=0;i<contacts.length;i++){
+				var contact = contacts[i];
+				str += "<li>" + contact.name + " " + contact.mobile + "<button id=\"deleteButton\" onclick=\"removeContact("+i+")\">Delete</button></li>";
+			}
+			//str
+			contactsObj.innerHTML = str;
+		}
+		
+		function emptyError(){
+			var errorMsgObj = document.getElementById("errorLabel");
+			errorMsgObj.innerHTML="";
+		}
+		
+		function removeContact(index) {
+			console.log("here");
+			contacts.splice(index, 1);
+			displayContacts();
+		}
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+package AccountAssignment;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+
+public class DAOImplementation implements AccountDAO{
+	private Connection connection;
+	
+	
+	public DAOImplementation(Connection connection) {
+		super();
+		this.connection = connection;
+	}
+
+	@Override
+	public void openAccount(Account acc) {
+		// TODO Auto-generated method stub
+		try {
+			String query = "insert into Account(name,balance,pin,isActive,"
+					+ "openingDate,closingDate)\n" + 
+					" values (?,?,?,?,?,?)";
+			PreparedStatement stmt = connection.prepareStatement(query);
+			String sql = "insert into airlines(airline_name,service_type) "
+					+ "values ('"+a.getAirlineName()+"','"+a.getServiceType()+"')";
+			stmt.executeUpdate(sql);
+			System.out.println("successfully added");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void closeAccount(int accNo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdraw(int accNo, double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit(int accNo, double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getBalance(int accNo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Account getAccount(int accno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

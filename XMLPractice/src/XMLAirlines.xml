@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airlines SYSTEM "airlineDTD.dtd">
+<airlines>
+	<airline>
+		<id>1</id>
+		<name> SkillAssure air</name>
+		<serviceType>Domestic</serviceType>
+	</airline>
+	<airline>
+		<airlineId>2</airlineId>
+		<name> Pratian air</name>
+		<serviceType>International</serviceType>
+	</airline>
+</airlines>

@@ -1,0 +1,19 @@
+package di.example4;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import di.example_3.Address;
+import di.example_3.Employee;
+
+public class TestMain7 {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring_5.xml");
+		Address address = (Address)context.getBean("addressId");
+		//System.out.println(address);
+	//	ApplicationContext context = new ClassPathXmlApplicationContext("spring_5.xml");
+		Employee employee = (Employee)context.getBean("employee");
+		System.out.println(address);
+		
+	}
+}

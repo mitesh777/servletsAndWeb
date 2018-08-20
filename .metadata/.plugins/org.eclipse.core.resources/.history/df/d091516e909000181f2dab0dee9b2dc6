@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>added airline successfully</h2>
+	<u><b>AIRLINES INFORMATION</b></u>
+	<hr>
+
+	<TABLE border="1">
+		<tr> <th>Airlines id: </th>
+			<td></td>
+		</tr>
+		<tr> <th>Airlines name: </th>
+			<td></td>
+		</tr>
+		<tr> <th>Airlines type: </th>
+			<td></td>
+		</tr>
+	</TABLE>
+	<h3>thank you</h3>
+</body>
+</html>

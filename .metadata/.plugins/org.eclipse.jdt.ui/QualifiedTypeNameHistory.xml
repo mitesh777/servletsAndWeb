@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.pratian.model.Department"/>
+<fullyQualifiedTypeName name="com.pratian.library.jdbc.DAOImplementation"/>
+<fullyQualifiedTypeName name="com.pratian.library.dao.LibraryDAO"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.MySQLConnection"/>
+<fullyQualifiedTypeName name="com.pratian.library.jdbc.MySQLConnector"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jni.User"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.pratian.library.model.User"/>
+<fullyQualifiedTypeName name="javax.websocket.Session"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.pratian.library.model.Book"/>
+<fullyQualifiedTypeName name="com.pratian.library.model.BasketItem"/>
+<fullyQualifiedTypeName name="JavaStringConcatenator"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
+<fullyQualifiedTypeName name="com.pratian.DemoMaven.StringConcatenatorTest"/>
+<fullyQualifiedTypeName name="com.pratian.DemoMaven.main.InvalidInputException"/>
+<fullyQualifiedTypeName name="com.pratian.DemoMaven.main.StringConcatenator"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="di.example_3.Address"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="di.example_5.Account"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="di.example_1.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>

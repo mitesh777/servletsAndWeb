@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome to js</h1>
+	
+
+	<script type="text/javascript">
+	var Employee = function(){
+		var name = '';
+		var basic = 0;
+		var pf = 0;
+		
+		var setName = function(_name){
+			name=_name;
+		}
+
+		var setBasic = function(_basic){
+			basic=_basic;
+		}
+		
+		var getName = function(){
+			return name;
+		}
+		var getBasic = function(){
+			return basic;
+		}
+		
+		var getTotalSalary = function(){
+			return basic + (basic*0.8);
+		}
+		
+		return {
+			setName : setName,
+			setBasic : setBasic,
+			getName : getName,
+			getBasic : getBasic,
+			getTotal : getTotalSalary
+		}
+	}
+	var e1 = new Employee();
+	e1.setName("Shashi");
+	e1.setBasic(4500);
+	console.log(e1);
+	console.log(e1.getTotal());
+	console.log(e1);
+	console.log(e1.getBasic());
+	console.log(e1.setBasic(123));
+	console.log(e1.getBasic());
+	</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.ucls,*.useq
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.spring_core=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/SpringCore/library/aopalliance-1.0.jar"/>\n\t<archive path\="/SpringCore/library/commons-logging-1.1.1.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.asm-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.beans-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.context-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.core-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.expression-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.web-3.0.3.RELEASE.jar"/>\n\t<archive path\="/SpringCore/library/org.springframework.web.servlet-3.0.3.RELEASE.jar"/>\n</userlibrary>\n

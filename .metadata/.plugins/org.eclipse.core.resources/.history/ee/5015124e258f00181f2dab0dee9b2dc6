@@ -1,0 +1,25 @@
+package AccountAssignment;
+
+import java.util.Date;
+
+public class Account {
+	private String accNum;
+	private String name;
+	private double balance;
+	private int pin;
+	private boolean isActive;
+	private Date openingDate;
+	private Date closingDate;
+	public Account(String accNum, String name, double balance, int pin, Date closingDate) {
+		super();
+		this.accNum = accNum;
+		this.name = name;
+		this.balance = balance;
+		this.pin = pin;
+		this.isActive = true;
+		this.openingDate = new Date();
+		this.closingDate = closingDate;
+	}
+	
+	
+}

@@ -1,0 +1,6 @@
+
+public class ProjectManager {
+	private double performanceBonus;
+	private double getPerformanceBonus;
+	
+}

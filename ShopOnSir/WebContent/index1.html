@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css-->
+	<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                    <div class="navbar-header">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+                        <a class="navbar-brand" href="#"><span>ShopON</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav-collapse">
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="Search" id="search">
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <!-- 
+                    <div id="currency">
+                        <select class="form-control">
+                            <option>$</option>
+                            <option>₹</option>
+                        </select>
+                    </div>
+                     -->
+                    <div class="cartdetails cart">
+                        <a href="#">
+                            <span class="badge pull-right" id="cartcnt">0</span>
+                            <span id="cartinfo"></span>
+                        </a>
+
+                        <!-- cart drop down -->
+                        <div class="cart-dropdown" id="cart">
+                            <span></span><!--Small rectangle to overlap Cart button-->
+                            <div class="body">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Items</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                        <tr class="item">
+                                            <td><button href="#" class="del"></button><a href="#">Apple-IPad Mini</a></td>
+                                            <td class="price">1</td>
+                                            <td class="price inr">2500</td>
+                                        </tr>
+                                        <tr class="item">
+                                            <td><button href="#" class="del"></button><a href="#">Apple-IPad Mini</a></td>
+                                            <td class="price">1</td>
+                                            <td class="price inr">2500</td>
+                                        </tr>
+                                        <tr class="item">
+                                            <td><button href="#" class="del"></button><a href="#">Apple-IPad Mini</a></td>
+                                            <td class="price">1</td>
+                                            <td class="price inr">2500 </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="footer group">
+                                <div class="buttons">
+                                    <a class="btn" href="#"><i class="glyphicon glyphicon-download-alt"></i>Checkout</a>
+                                    <a class="btn" href="#"><i class="glyphicon"></i>To cart</a>
+                                </div>
+                                <div class="total inr">2500</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--end of header-->
+        <!--content-->
+        <div class="row" id="mobiledetails">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">2500</div>
+                    <figure>
+                        <img src="images/Apple/apple-ipad-mini-3-new.jpg" alt="apple-ipad-mini" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Apple</span>
+                            <span class="model">iPAD Mini</span>
+                        </a>
+                 
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">2100</div>
+                    <figure>
+                        <img src="images/BB/BlackBerry-Classic.jpg" alt="BlackBerry Classic" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">BlackBerry</span>
+                            <span class="model">Classic</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">900</div>
+                    <figure>
+                        <img src="images/Gionee/gionee-G3.jpg" alt="Gionee G3" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Gionee</span>
+                            <span class="model">G3</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">2500</div>
+                    <figure>
+                        <img src="images/Intex/Intex-Aqua-Extreme-2.jpg" alt="Intex-Aqua-Extreme" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Intex</span>
+                            <span class="model">Aqua Extreme</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">700</div>
+                    <figure>
+                        <img src="images/Intex/Intex-Aqua-Power-2.jpg" alt="Intex-Aqua-Power" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Intex</span>
+                            <span class="model">-Aqua Power</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">700</div>
+                    <figure>
+                        <img src="images/Lenovo/Lenovo-A1000.jpg" alt="Lenovo-A1000" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Lenovo</span>
+                            <span class="model">A1000</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">600</div>
+                    <figure>
+                        <img src="images/Micromax/Micromax-Bling.jpg" alt="Micromax-Bling" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Micromax</span>
+                            <span class="model">Bling</span>
+                        </a>
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">1500</div>
+                    <figure>
+                        <img src="images/Moto/motorola-moto-g-3rd-gen-r.jpg" alt="motorola-moto-g-3rd" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Motorola</span>
+                            <span class="model">Moto-G</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="hmobile">
+                    <div class="cost inr">2500</div>
+                    <figure>
+                        <img src="images/Nokia/nokia-lumia-930-new.jpg" alt="nokia-lumia-930" />
+                    </figure>
+                    <div class="details">
+                        <a href="#">
+                            <span class="company">Nokia</span>
+                            <span class="model">Lumia-930</span>
+                        </a>
+                        
+                        <div class="add-cart">
+                            <button class="add-cart-btn">
+                                <span>To cart</span>
+                                <i class="glyphicon-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of content-->
+    </div>
+    <footer>
+        <p>
+            <span class="glyphicon glyphicon-copyright-mark"></span> All rights reserved to ShopON.
+        </p>
+    </footer>
+
+    <!--Scripts-->
+    <!--jquery script-->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js">
+	</script>
+    <!--bootstrap script-->
+	<script type="text/javascript" src="js/bootstrap.min.js">
+	</script>
+    <!--custom scripts-->
+    
+    <!--end of Scripts-->
+</body>
+</html>

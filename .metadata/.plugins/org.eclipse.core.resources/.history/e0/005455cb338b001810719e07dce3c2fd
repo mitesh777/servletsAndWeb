@@ -1,0 +1,13 @@
+
+public class Developer extends Employee{
+
+	@Override
+	double getMonthlySalary() {
+		
+		//DefaultSalaryCalculator dsc = new DefaultSalaryCalculator();
+		SalaryCalculator sc = new SalesCalculatorFactory("Developer");
+		double defaultSalary = dsc.calculateDefaultSalary(this);
+		return defaultSalary;
+	}
+	
+}

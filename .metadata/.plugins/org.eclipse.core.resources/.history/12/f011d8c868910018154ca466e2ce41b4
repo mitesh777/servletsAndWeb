@@ -1,0 +1,23 @@
+package com.pratian.library.client;
+
+import java.sql.Connection;
+
+import com.pratian.library.dao.LibraryDAO;
+import com.pratian.library.jdbc.DAOImplementation;
+import com.pratian.library.jdbc.MySQLConnector;
+import com.pratian.library.model.User;
+
+public class LibraryClient {
+	public static void main(String[] args) {
+		Connection connection = MySQLConnector.connectToDB();
+		LibraryDAO dao = new DAOImplementation(connection);
+		System.out.println(dao.getAllBooks());
+		User user = new User("danny","chottu");
+		System.out.println(dao.validUsername(user));
+		System.out.println(dao.getBooksByCategory("Fiction"));
+		System.out.println(dao.getBookByISBN("123-114-515-66"));
+		System.out.println(dao.getBookById(2));
+		System.out.println(dao.getBasketId("karthik"));
+		//done.
+	}
+}

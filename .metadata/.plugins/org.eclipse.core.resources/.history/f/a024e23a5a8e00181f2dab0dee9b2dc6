@@ -1,0 +1,28 @@
+import java.util.LinkedList;
+import java.util.Random;
+
+public class LinkedListJava {
+	private LinkedList<Integer> list1;
+	private LinkedList<Integer> list2;
+	private LinkedList<Integer> resultList;
+	public LinkedListJava() {
+		list1 = new LinkedList<Integer>();
+		list1 = new LinkedList<Integer>();
+	}
+	
+	public void createList1() {
+		//Random rand= new Random();
+		list1.add(12);
+		list1.add(13);
+		list1.add(11);
+		list1.add(10);
+	}
+	
+	public void createList2() {
+		//Random rand= new Random();
+		list1.add(14);
+		list1.add(13);
+		list1.add(15);
+		list1.add(12);
+	}
+}

@@ -1,0 +1,7 @@
+package di.example_1;
+
+public class TestMainConstructor {
+	public static void main(String[] args) {
+		
+	}
+}

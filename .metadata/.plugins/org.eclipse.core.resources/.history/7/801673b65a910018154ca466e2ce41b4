@@ -1,0 +1,23 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.pratian.library.model.Book"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>View Book</title>
+</head>
+<body>
+
+	<%
+	ArrayList<Book> books = (ArrayList<Book>)request.getAttribute("allBooksList");
+	System.out.println(books);
+	int id = Integer.parseInt((String)request.getAttribute("idForBook"));
+	Book book = books.get(id); 
+	%>
+	<h2>${book.title}</h2>
+	
+	
+</body>
+</html>

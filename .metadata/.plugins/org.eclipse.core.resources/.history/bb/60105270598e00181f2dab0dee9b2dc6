@@ -1,0 +1,7 @@
+
+public class LinkedListJava {
+	LinkedList<Integer> list1;
+	public LinkedListJava() {
+		
+	}
+}

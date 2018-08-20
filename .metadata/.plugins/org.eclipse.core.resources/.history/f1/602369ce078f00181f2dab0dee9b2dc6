@@ -1,0 +1,5 @@
+package com.pratian.travelapp.jdbc;
+
+public class DAOImplementation implements AirlineDAO {
+
+}

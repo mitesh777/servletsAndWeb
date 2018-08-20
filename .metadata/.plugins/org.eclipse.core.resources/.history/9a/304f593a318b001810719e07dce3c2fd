@@ -1,0 +1,4 @@
+
+public class SalesExecutive extends Enployee {
+	
+}

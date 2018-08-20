@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT airlines (airline)*>
+<!ELEMENT airline ((id | airlineId), name,serviceType?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT airlineId (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT serviceType (#PCDATA)>

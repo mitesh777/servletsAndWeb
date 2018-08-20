@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class BankApp {
+	public int checkEquality(ArrayList<Account> accounts) {
+		int equals=0;
+		ArrayList<Integer> equalBalances=new ArrayList<Integer>();
+		for(Account account : accounts) {
+			int count=0;
+			for(Account account1 : accounts) {
+				if(account1.)
+			}
+		}
+	}
+}

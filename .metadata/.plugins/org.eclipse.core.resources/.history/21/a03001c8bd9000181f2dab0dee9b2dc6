@@ -1,0 +1,5 @@
+package com.pratian.library.model;
+
+public class Author {
+
+}

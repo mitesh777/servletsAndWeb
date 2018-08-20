@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+
+</head>
+<body>
+	<form method="post" action = "RegisterServlet">
+		<h1>Registration Form</h1>
+		First Name <input name="fname"/><br/>
+		Last Name <input name="lname"/><br/>
+		Email <input name="email"/><br/>
+		Password <input type="password" name="password"/><br/>
+		City <input name="city"/><br/>
+		Country <select name="country">
+		    <option value="india">India</option>
+		    <option value="pak">Pakistan</option>
+  		</select><br/>
+  		Zip <input name="zip"/><br>
+  		Gender    <input type="radio" name="gender" value="male"> Male
+  		<input type="radio" name="gender" value="female"> Female<br>
+ 		<input type="submit" value="save"/>
+ 		<input type="reset" value="cancel"/>
+  		
+	</form>
+</body>
+</html>

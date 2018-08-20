@@ -1,0 +1,43 @@
+package com.pratian.travelapp.entity;
+
+public class Airline {
+	private long airlineId;
+	private String airlineName;
+	private String serviceType;
+	public Airline(long airlineId, String airlineName, String serviceType) {
+		super();
+		this.airlineId = airlineId;
+		this.airlineName = airlineName;
+		this.serviceType = serviceType;
+	}
+	
+	public Airline(String airlineName, String serviceType) {
+		super();
+		this.airlineName = airlineName;
+		this.serviceType = serviceType;
+	}
+
+	public Airline() {
+		super();
+	}
+
+	public long getAirlineId() {
+		return airlineId;
+	}
+	public void setAirlineId(long airlineId) {
+		this.airlineId = airlineId;
+	}
+	public String getAirlineName() {
+		return airlineName;
+	}
+	
+	public void setAirlineName(String airlineName) {
+		this.airlineName = airlineName;
+	}
+	public String getServiceType() {
+		return serviceType;
+	}
+	public void setServiceType(String serviceType) {
+		this.serviceType = serviceType;
+	}
+}

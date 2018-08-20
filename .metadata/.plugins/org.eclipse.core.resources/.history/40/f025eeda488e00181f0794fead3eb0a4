@@ -1,0 +1,31 @@
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class TreeSetDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Employee> empTreeSet = new TreeSet<>();
+		empTreeSet.add(new Employee(6, "sindhu", 12314));
+		empTreeSet.add(new Employee(2, "ava", 12355));
+		empTreeSet.add(new Employee(3, "vva", 1235));
+		empTreeSet.add(new Employee(4, "jrj", 114));
+		empTreeSet.add(new Employee(5, "qwr", 4));
+		empTreeSet.add(new Employee(1, "zxv", 1231442));
+		
+		System.out.println(empTreeSet);
+	}
+
+}
+
+class EmployeeSalaryComparator implements Comparator<Employee>{
+
+	@Override
+	public int compare(Employee o1, Employee o2) {
+		// TODO Auto-generated method stub
+		return (new Double(o1.getSalary()).compareTo(o2.getSalary()));
+		return 0;
+	}
+	
+}
+

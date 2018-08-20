@@ -1,0 +1,10 @@
+import java.util.LinkedList;
+
+public class LinkedListJava {
+	private LinkedList<Integer> list1;
+	private LinkedList<Integer> list2;
+	private LinkedList<Integer> resultList;
+	public LinkedListJava() {
+		
+	}
+}

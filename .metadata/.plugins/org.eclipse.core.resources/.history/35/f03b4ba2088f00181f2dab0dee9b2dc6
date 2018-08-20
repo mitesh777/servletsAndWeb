@@ -1,0 +1,10 @@
+package com.pratian.travelapp.client;
+
+import com.pratian.travelapp.entity.Airline;
+
+public class TravelAppDemo {
+	public static void main(String[] args) {
+		Airline airline=new Airline("newAirline","domestic");
+		
+	}
+}

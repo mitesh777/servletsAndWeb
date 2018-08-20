@@ -1,0 +1,27 @@
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "airlines")
+public class Airline {
+	private int id;
+	private String name;
+	private String serviceType;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getServiceType() {
+		return serviceType;
+	}
+	public void setServiceType(String serviceType) {
+		this.serviceType = serviceType;
+	}
+	
+}

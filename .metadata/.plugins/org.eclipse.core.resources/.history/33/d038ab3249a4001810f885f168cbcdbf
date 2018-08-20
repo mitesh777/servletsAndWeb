@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	
+	<button id="getFriends" class="btn btn-dark">get friends list</button>
+	<ol id="friends"></ol>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		var friendsList = ['dan','kar','sham'];
+		$('#getFriends').click(function(){
+			$.each(friendsList, function(i,x){
+				console.log(x);
+				$("#friends").append('<li>'+x+'</li>'); 
+			}})
+		});
+		
+	});
+	
+	</script>
+</body>
+</html>

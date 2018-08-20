@@ -1,0 +1,16 @@
+package com.pratian.library.dao;
+
+import java.util.List;
+
+import com.pratian.library.model.Book;
+import com.pratian.library.model.User;
+
+public interface LibraryDAO {
+	boolean validUsername(User user);
+	List<Book> getAllBooks();
+	List<Book> getBooksByCategory(String category);
+	Book getBookByISBN(String ISBN);
+	Book getBookById(int id);
+	
+	void addToBasket(int id, Book book);
+}

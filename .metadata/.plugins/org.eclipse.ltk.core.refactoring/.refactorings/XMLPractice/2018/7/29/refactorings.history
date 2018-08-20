@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;XMLPractice/src/NewFile.dtd&apos; to &apos;DTDWithFlights.dtd&apos;" description="Rename resource &apos;NewFile.dtd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/NewFile.dtd" name="DTDWithFlights.dtd" stamp="1532085561220" updateReferences="true"/>
+</session>

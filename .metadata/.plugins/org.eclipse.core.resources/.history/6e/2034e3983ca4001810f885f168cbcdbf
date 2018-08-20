@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<form action="">
+		<input type="text" placeholder="Enter your email" id="txtEmail"></input>
+		<input type="text" placeholder="Enter your email2" id="txtEmail2"></input>
+		<button id="btnMsg">Message</button>
+		
+	</form>
+	<button id="copy">Copy</button>
+	<label id="labelWelcome"></label>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		
+		$("#copy").on('click',function(){
+			$("#txtEmail2").value(("#txtEmail").value());
+		});
+	});
+	
+	</script>
+</body>
+</html>

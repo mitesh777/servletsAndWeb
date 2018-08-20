@@ -1,0 +1,126 @@
+package di.example_6;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import di.example_5.Address;
+
+
+public class Employee {
+	private int employeeId;
+	private String employeeName;
+	private double salary;
+	private Address homeAddress;
+	private Address officeAddress;
+	private Map<Long,Account> accounts;
+	public void setAccounts(Map<Long, Account> accounts) {
+		this.accounts = accounts;
+	}
+
+
+	public Employee() {
+		super();
+	}
+	
+
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", salary=" + salary
+				+ ", homeAddress=" + homeAddress + ", officeAddress=" + officeAddress + ", accounts=" + accounts + "]";
+	}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	public Employee(int employeeId, String employeeName, double salary) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.salary = salary;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	public Address getHomeAddress() {
+		return homeAddress;
+	}
+
+
+
+	public void setHomeAddress(Address homeAddress) {
+		this.homeAddress = homeAddress;
+	}
+
+
+
+	public Address getOfficeAddress() {
+		return officeAddress;
+	}
+
+
+
+	public void setOfficeAddress(Address officeAddress) {
+		this.officeAddress = officeAddress;
+	}
+
+
+
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getEmployeeName() {
+		return employeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+
+	public Map<List, Account> getAccounts() {
+		return accounts;
+	}
+
+
+
+	
+
+	
+}
+

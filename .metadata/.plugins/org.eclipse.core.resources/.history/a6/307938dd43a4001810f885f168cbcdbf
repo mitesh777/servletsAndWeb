@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div>
+	<p id="p1">asfdas</p>
+	<p id="p2">asfdas</p>
+	<p id="p3">asfdas</p>
+	</div>
+	<div id="msg"></div>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		alert('hello '+$("a").length);
+		$("#msg").text('you have ' + $("a").length + ' anchors ');
+		$("a").click(function(){
+			$("#msg").text('you have clicked on ' + this.text + 'link text ' + $(this).attr('href'));
+		});
+	});
+	
+	</script>
+</body>
+</html>

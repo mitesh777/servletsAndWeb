@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Contact app</h1>
+	<hr>
+	<input type="text" id="txtName" onkeypress="emptyError()" placeholder="Enter Name"/>
+	<label id="errorLabel" ></label>
+	<br>
+	<button id="btnAdd" onclick="addContact()">Add Contact</button>
+	<button id="btnDelete" onclick="deleteContact()">Delete Contact</button>
+	<br>
+	<h4>Contacts</h4>
+	<div>
+	<ol id="contacts">
+		
+	</ol>
+	</div>
+	<script type="text/javascript">
+		
+		var contacts = [];
+	
+		//add contact
+		function addContact(){
+			var contactObj = document.getElementById("txtName");
+			var name = contactObj.value;
+			var errorMsgObj = document.getElementById("errorLabel");
+			//alert(name);
+			if(name===""){
+				errorMsgObj.innerHTML="name cannot be empty";
+			}
+			else{
+				errorMsgObj.innerHTML="";
+				contactObj.value = "";
+				contacts.push(name);
+				displayContacts();
+			}
+		}
+	
+		function addContact(){
+			var contactObj = document.getElementById("txtName");
+			var name = contactObj.value;
+			var errorMsgObj = document.getElementById("errorLabel");
+			//alert(name);
+			if(name===""){
+				errorMsgObj.innerHTML="name cannot be empty";
+			}
+			else{
+				errorMsgObj.innerHTML="";
+				contactObj.value = "";
+				contacts.push(name);
+				displayContacts();
+			}
+		}
+		
+		function displayContacts(){
+			var contactsObj = document.getElementById("contacts");
+			var str="";
+			for(var i=0;i<contacts.length;i++){
+				var name = contacts[i];
+				str += "<li>" + name + "</li>";
+			}
+			//str
+			contactsObj.innerHTML = str;
+		}
+		
+		function emptyError(){
+			var errorMsgObj = document.getElementById("errorLabel");
+			errorMsgObj.innerHTML="";
+		}
+		
+		function remove(element) {
+		    constindex = contacts.indexOf(element);
+		    contacts.splice(index, 1);
+		}
+	
+	</script>
+</body>
+</html>

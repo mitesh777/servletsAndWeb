@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button onclick="fun1()">get all</button>
+	<button onclick="fun2()">get user</button>
+	<button onclick="fun3()">update user</button>
+	<button onclick="fun4()">delete user</button>
+
+	<script type="text/javascript">
+	function init(){
+		var xhr = null;
+		var surl = "https://reqres.in/api/users";
+		try{
+			xhr = new XMLHttpRequest();
+		}catch(e){
+			alert("your browser has a problem");
+		}
+		if(xhr=='undefined' || xhr == null){
+			xhr = new ActivateXObject("Msxml2.XMLHTTP3.0");
+		}
+		console.log(xhr);
+		
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(xhr.responseText);
+			}
+		}
+		xhr.open("GET",surl,true);
+		xhr.send();
+	}
+	
+	init();
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class BankApp {
+	public int checkEquality(ArrayList<Account> accounts) {
+		int equals=0;
+		ArrayList<Double> equalBalances=new ArrayList<Double>();
+		for(Account account : accounts) {
+			int count=0;
+			for(Account account1 : accounts) {
+				if(!equalBalances.contains(account1.getBalance()) && account1.equals(account)) {
+					if(count==0) {
+						count=2;
+						equalBalances.add(account1.getBalance());
+						continue;
+					}
+					else {
+						++count;
+					}
+				}
+			}
+			equals+=count;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+public class ProjectManager extends Employee{
+	private double performanceBonus;
+	private double projectCommission;
+	public double getPerformanceBonus() {
+		return performanceBonus;
+	}
+	public void setPerformanceBonus(double performanceBonus) {
+		this.performanceBonus = performanceBonus;
+	}
+	
+	public double getProjectCommission() {
+		return projectCommission;
+	}
+	public void setProjectCommission(double projectCommission) {
+		this.projectCommission = projectCommission;
+	}
+	@Override
+	double getMonthlySalary() {
+		ManagerSalaryCalculator msc = new ManagerSalaryCalculator();
+		return msc.calculateManagerSalary(this);
+		 //teamLeadSalary;
+		// TODO Auto-generated method stub
+		//return 0;
+	}
+	
+}

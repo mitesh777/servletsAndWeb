@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<style>
+	.err{
+		color: red;
+	}
+</style>
+</head>
+<body>
+	<h1>Contact App</h1>
+	<hr/>
+	<input type="text" class="form-control-sm" id="txtName" placeholder="Enter name" />
+	<input type="number" class="form-control-sm" id="txtMobile" placeholder="Enter mobile number" />
+	<label id="errName" class="err"></label>
+	<br/>
+	<br/>
+	<button type="button" id="btnAdd" class="btn btn-outline-primary" >Add Contact</button>
+	<br/>
+	<h4>Contacts</h4>
+	<div>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Mobile No.</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody id="contacts"></tbody>
+		</table>
+	</div>
+	
+	<script type="text/javascript" src="../app/Contact.js"></script>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	var contacts = [];
+	$(function(){
+		$("btnAdd").click(function(){
+			var name = $("#txtName").val();
+			var mobile = $("#txtMobile").val();
+		})
+	});
+		
+	
+	</script>
+</body>
+</html>
+
+
+
+
+

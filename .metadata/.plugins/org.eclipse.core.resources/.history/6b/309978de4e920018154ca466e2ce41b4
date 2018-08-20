@@ -1,0 +1,6 @@
+package di.example4;
+
+public class Account {
+	private long accountId;
+	private String accountType;
+}

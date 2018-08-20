@@ -1,0 +1,12 @@
+
+public class Developer extends Employee{
+
+	@Override
+	double getMonthlySalary() {
+		
+		DefaultSalaryCalculator dsc = new DefaultSalaryCalculator();
+		double defaultSalary = dsc.calculateDefaultSalary(this);
+		return defaultSalary;
+	}
+	
+}

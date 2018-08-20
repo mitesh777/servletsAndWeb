@@ -1,0 +1,12 @@
+import java.util.Comparator;
+
+public class EmployeeSalaryComparatorimplements Comparator<Employee>{
+
+	@Override
+	public int compare(Employee o1, Employee o2) {
+		// TODO Auto-generated method stub
+		return (new Double(o1.getSalary()).compareTo(o2.getSalary()));
+		
+	}
+	
+}

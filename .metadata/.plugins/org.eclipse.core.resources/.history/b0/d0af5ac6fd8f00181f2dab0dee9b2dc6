@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<h1>Calculator</h1>
+</head>
+<body>
+<form method="post" action = "RegisterServlet">
+	<h1>Registration Form</h1>
+	First Number <input name="fnumber"/><br/>
+	Second Number <input name="snumber"/><br/>
+	<input type="submit" value="+"/>
+	<input type="submit" value="-"/>
+	<input type="submit" value="*"/>
+	<input type="submit" value="/"/>
+</form>
+</body>
+</html>

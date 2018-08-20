@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airlines SYSTEM "airlineDTD.dtd">
+<airlines>
+	<airline>
+		<id>1</id>
+		<name> SkillAssure air</name>
+		<serviceType>Domestic</serviceType>
+		<flights>
+			<id>1</id>
+			<description>Boeing AirBus</description>
+			<seatCapacity>250</seatCapacity>
+		</flights>
+	</airline>
+	<airline>
+		<id>2</id>
+		<name> Pratian air</name>
+		<serviceType>International</serviceType>
+		<flights>
+			<id>2</id>
+			<description>Boeing AirBus11</description>
+			<seatCapacity>20</seatCapacity>
+		</flights>
+	</airline>
+</airlines>

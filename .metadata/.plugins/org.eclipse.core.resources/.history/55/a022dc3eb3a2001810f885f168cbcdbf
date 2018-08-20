@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button onclick="getAllUsers()">get all</button>
+	<button onclick="getUserById()">get user</button>
+	<button onclick="updateUser()">update user</button>
+	<button onclick="deleteUser()">delete user</button>
+
+	<script type="text/javascript">
+	
+	//var xhr = null;
+	
+	function init(){
+		
+		var surl = "https://reqres.in/api/users";
+		
+		//console.log(xhr);
+		
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(xhr.responseText);
+			}
+		}
+		xhr.open("GET",surl,true);
+		xhr.send();
+	}
+	
+	function getXhr(){
+		var xhr = null;
+		try{
+			xhr = new XMLHttpRequest();
+		}catch(e){
+			alert("your browser has a problem");
+		}
+		if(xhr=='undefined' || xhr == null){
+			xhr = new ActivateXObject("Msxml2.XMLHTTP3.0");
+		}
+		return xhr;
+	}
+	
+	var baseUrl = "https://reqres.in/api/";
+	
+	function getAllUsers(){
+		var xhr = getXhr();
+		var url = baseUrl + "users";
+			xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status >=200){
+				console.log(JSON.parse(xhr.responseText));
+			}
+		}
+		xhr.open("GET",url,true);
+		xhr.send();
+	}
+	
+	
+	
+	</script>
+</body>
+</html>

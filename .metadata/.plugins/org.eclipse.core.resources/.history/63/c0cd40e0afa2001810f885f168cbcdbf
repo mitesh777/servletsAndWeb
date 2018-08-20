@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+	function init(){
+		var xhr null;
+		
+		try{
+			xhr = new XMLHttpRequest();
+		}catch(e){
+			alert("your browser has a problem");
+		}
+		if(xhr=='undefined'){
+			xhr = new ActivateXObject("Msxml2.XMLHTTP3.0");
+		}
+		
+		
+		console.log(xhr);
+	}
+	
+	init();
+	</script>
+</body>
+</html>

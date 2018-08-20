@@ -1,0 +1,14 @@
+package com.pratian.travelapp.client;
+
+import com.pratian.travelapp.dao.AirlineDao;
+import com.pratian.travelapp.entity.Airline;
+import com.pratian.travelapp.jdbc.DAOImplementation;
+
+public class TravelAppDemo {
+	public static void main(String[] args) {
+		Airline airline=new Airline("newAirline","domestic");
+		AirlineDao airlineDAO = new DAOImplementation();
+		airlineDAO.createAirline(airline);
+		airlineDAO.deleteAirline(6);
+	}
+}

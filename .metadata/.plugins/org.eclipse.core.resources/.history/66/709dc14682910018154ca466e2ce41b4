@@ -1,0 +1,14 @@
+package com.pratian.DemoMaven;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringConcatenatorTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

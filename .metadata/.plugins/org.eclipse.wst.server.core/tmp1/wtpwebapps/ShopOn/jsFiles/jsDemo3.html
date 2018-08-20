@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome to js</h1>
+	<input type="text" id="txtName" placeholder="Enter your name"/>
+	<button onclick="fun()">click me</button>
+
+	
+
+	<script type="text/javascript">
+	
+	function Employee(_id,_name,_basic){
+		this.id = _id;
+		this.name = _name;
+		this.basic = _basic;
+	}
+	
+	var employee1 = new Employee(1,"Shashi",45000);
+	var employee2 = new Employee(2,"Shashi2",5000);
+	console.log(employee1);
+	console.log(employee2);
+	</script>
+</body>
+</html>

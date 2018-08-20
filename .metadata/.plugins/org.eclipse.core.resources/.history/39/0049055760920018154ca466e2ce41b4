@@ -1,0 +1,5 @@
+package di.example_1;
+
+public class TestClassSingleton {
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	
+	<button id="hide" class="btn btn-dark">get friends list</button>
+	<div id="friends"></div>
+	<script src="../../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	
+	$(function(){
+		var IDs = [];
+		$("p").each(function(){ IDs.push(this.id); });
+		
+		for(var i=0;i<IDs.length;i++){
+			$('#sel').append($("<option>"+IDs[i]+"</option>"));
+		}
+		
+		$('#hide').click(function(){
+			
+			var optionText = $("#sel option:selected").text();
+			//alert(optionText);
+			$('#'+optionText).fadeOut(500)
+		});
+		$('#show').click(function(){
+			var optionText = $("#sel option:selected").text();
+			$('#'+optionText).fadeIn(500);
+		});
+		
+	});
+	
+	</script>
+</body>
+</html>

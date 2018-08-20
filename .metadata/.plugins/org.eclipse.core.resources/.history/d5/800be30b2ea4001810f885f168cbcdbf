@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+</head>
+<body>
+	
+	<div>One</div>
+	<div>two</div>
+	<div>three</div>
+	<div>four</div>
+	<div>five</div>
+	
+	<button id="hide" onclick="hide()">Hide</button>
+	<button id="show" onclick="show()">Show</button>
+	<script src=""../js/jquery-3.3.1.min.js""></script>
+	<script type="text/javascript">
+	function hide(){
+		var divs = document.getElementsByTagName("div");
+		//document.querySelectorAll("div");
+		for(var i=0;i<divs.length;i++){
+			var d= divs[i];
+			d.style.display = 'none';
+		}
+	}
+	
+	function show(){
+		var divs = document.getElementsByTagName("div");
+		for(var i=0;i<divs.length;i++){
+			var d= divs[i];
+			d.style.display = 'block';
+		}
+	}
+	</script>
+</body>
+</html>

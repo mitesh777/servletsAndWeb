@@ -1,0 +1,8 @@
+package Assignment4;
+
+public class EmployeeTest {
+	public static void main(String[] args) {
+		//main implementation
+		Employee e1 = new Employee(17873, "Meghna Tunga", 21, 150000.0)
+	}
+}

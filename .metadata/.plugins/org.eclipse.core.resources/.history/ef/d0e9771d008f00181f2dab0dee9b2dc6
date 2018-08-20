@@ -1,0 +1,17 @@
+package com.pratian.jdbc;
+
+public class ResultSetDemo {
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new ResultSetDemo().readFromAirlines();
+	}
+
+	private void readFromAirlines() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

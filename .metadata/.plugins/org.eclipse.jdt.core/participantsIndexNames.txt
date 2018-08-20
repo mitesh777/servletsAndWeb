@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+/home/user/Desktop/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2288353846.index
+/LibraryEE/src
+/home/user/Desktop/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/258085216.index
+/HappyTripDWP/src
+/home/user/Desktop/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/343347681.index
+/HappyTripDWP/src
+/home/user/Desktop/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1571120582.index
+/ServeletDemo/src

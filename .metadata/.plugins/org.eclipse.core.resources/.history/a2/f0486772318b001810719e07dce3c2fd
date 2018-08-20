@@ -1,0 +1,20 @@
+
+public class SalesExecutive extends Employee {
+	
+	private double saleargetIncentives;
+	
+	public double getSaleargetIncentives() {
+		return saleargetIncentives;
+	}
+
+	public void setSaleargetIncentives(double saleargetIncentives) {
+		this.saleargetIncentives = saleargetIncentives;
+	}
+
+	@Override
+	double getMonthlySalary() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

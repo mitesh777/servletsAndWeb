@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 2.0em;
+    color: tomato;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+.product-price{
+    color: orangered;
+    padding-left: 21px;
+    font-size: 1.3em;
+    margin-top: 12px;
+}
+
+.product-title{
+    font-size: 1.5em;
+    padding-left: 6px;
+}
+
+.add-to-cart{
+	position: relative;
+    left: 186px;
+    font-size: 1.1em;
+    top: -31px;
+    border: 1px solid #eee;
+    width: 117px;
+    text-align: center;
+    height: 29px;
+    line-height: 31px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.add-to-cart:hover{
+	transform: scale(1.1);
+}
+
+header{
+    box-shadow: 3px 2px 2px #eee;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 44px;
+    background-color: floralwhite;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    background: url('../images/cart1.png')no-repeat;
+    background-size: cover;
+}
+
+#cart-data{
+	font-size: 1.7em;
+    position: relative;
+    top: 3px;
+    left: 7px;
+    color: brown;
+    cursor: pointer;
+}
+
+.fl-left{
+	float: left;
+}
+
+.clr{
+	clear: both;
+}
+
+.search{
+	width: 400px;
+	border: 1px solid orange;
+	position: relative;
+	left: 50px;
+	line-height: 36px;
+}
+
+.nav-container{
+	position: absolute;
+    right: 106px;
+}
+
+.login{
+	font-family: sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 5px;
+    left: 36px;
+}
+
+.product{
+	/*box-shadow: 1px 3px 2px #eee;*/
+	border: 1px solid #eee;
+    width: 327px;
+    height: 352px;
+    float: left;
+    margin: 5px 8px 5px 12px;
+}
+
+.row{
+	padding: 5px;
+    top: 43px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
+
+footer{
+	position: relative;
+    bottom: -40px;
+    border-top: 1px solid #eee;
+    background-color: floralwhite;
+    width: 100%;
+    height: 45px;
+}
+
+.quick-link{
+	position: absolute;
+    right: 20px;
+}
+
+.copyright{
+	font-size: 1.2em;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.quick-link > nav > ul{
+	list-style-type: none;
+}
+
+.quick-link > nav > ul > li{
+	display: inline;
+	font-size: 1em;
+	margin-left: 4px;
+	border-right: 1px solid #333;
+	padding-right: 4px;
+	font-family: arial;
+}
+
+.quick-link > nav > ul > li:last-child{
+	border-right: 0px;
+}
+
+.quick-link > nav > ul > li > a{
+	text-decoration: none;
+}
+
+.inr::before{
+	content: "\20B9";
+}

@@ -1,0 +1,5 @@
+package minesweeper.client;
+
+public class MinesweeperDemo {
+
+}

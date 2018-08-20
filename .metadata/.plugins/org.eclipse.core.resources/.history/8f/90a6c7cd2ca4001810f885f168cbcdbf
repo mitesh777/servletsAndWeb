@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery</title>
+</head>
+<body>
+	<div class = "allDivs">
+	<div>One</div>
+	<div>two</div>
+	<div>three</div>
+	<div>four</div>
+	<div>five</div>
+	</div>
+	<button id="hide">Hide</button>
+	<button id="show">Show</button>
+	<script type="text/javascript">
+	var employee = {
+		"name": "Shashi",
+		"id": 123
+	};
+	
+	console.log(employee);
+	employee.basic = 45000;
+	employee.hra = 200;
+	console.log(employee);
+	
+	</script>
+</body>
+</html>

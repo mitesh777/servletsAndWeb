@@ -1,0 +1,77 @@
+var dao = new contactDao();
+
+function init(){
+	dao.init();
+	
+}
+
+function addContact(){
+	var contactObj = document.getElementById("txtName");
+	var mobileObj = document.getElementById("txtMobile");
+	var name = contactObj.value;
+	var mobile = mobileObj.value;
+	var lblNameObj = document.getElementById("errName");
+	var id = dao.getId();
+	//check if the name is blank
+	if(name == ""){
+		lblNameObj.innerHTML = "Name cannot be blank!";
+		contactObj.focus();
+		return;
+	}
+	//create contact object
+	var contact = new Contact(id,name, mobile);
+	
+	//push contact to contacts
+	dao.addContact(contact);
+	
+	displayContact();
+	//clear the name
+	contactObj.value = "";
+	//set focus
+	contactObj.focus();
+}
+
+//Check for blank name
+function checkName(){
+	var contactObj = document.getElementById("txtName");
+	var lblNameObj = document.getElementById("errName");
+	var name = contactObj.value;
+	if(name == ""){
+		lblNameObj.innerHTML = "Name cannot be blank!";				
+	} else {
+		lblNameObj.innerHTML = "";
+	}
+}
+
+//Display all contacts
+function displayContact(){
+	var contactsObj = document.getElementById("contacts");
+	var str = '';
+	var data = dao.getAllContacts();
+	for(var i=0; i<data.length; i++){
+		var contact = data[i];
+		str += "<tr><td>" + contact.name + "</td>";
+		str += "<td>" + contact.mobile + "</td>";
+		str += "<td><button type='button' class='btn btn-danger' onclick='deleteContact("+i+")'>Delete</button>"
+	}
+	
+	contactsObj.innerHTML = str;
+}
+
+function deleteContact(index){
+	var c = confirm("You want to delete the contact?");
+	console.log(c);
+	if(c){
+		dao.deleteContactById(index);
+		displayContact();
+	}
+}
+
+
+
+
+
+
+
+
+

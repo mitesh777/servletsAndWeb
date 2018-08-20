@@ -1,0 +1,16 @@
+package com.pratian.library.client;
+
+import java.sql.Connection;
+
+import com.pratian.library.dao.LibraryDAO;
+import com.pratian.library.jdbc.DAOImplementation;
+import com.pratian.library.jdbc.MySQLConnector;
+
+public class LibraryClient {
+	public static void main(String[] args) {
+		Connection connection = MySQLConnector.connectToDB();
+		LibraryDAO dao = new DAOImplementation(connection);
+		System.out.println(dao.getAllBooks());
+		
+	}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ShopOn</title>
+    <link href = "css/shopon_style.css" rel="stylesheet">
+</head>
+<!--1em is the current size of the browser-->
+<body>
+    <div id="container">
+        <header>
+            <div class="product-price product-title float-left">Shopon</div>
+            <div class="search1 float-left">
+                <input type="search" placeholder="Enter Search Here" />
+            </div>
+            <div class="nav-container float-right">
+                <div class="cart float-left"><span id="cart-data">0</span></div>
+                <div class="login float-right">Login</div>
+            </div>
+            <div class="clr"></div>
+        </header>
+        <div class="row">
+            <div class="product">
+                <div class="product-img">
+                    <img src="images/Apple/apple-iphone-5s-ofic.jpg" />
+                </div>
+                <div class="product-title">Iphone 5s</div>
+                <div class="product-price">5000</div>
+                <div class="add-to-cart">Add to cart</div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="images/Gionee/gionee-F103.jpg" />
+                </div>
+                <div class="product-title">gionee-F103</div>
+                <div class="product-price">15000</div>
+                <div class="add-to-cart">Add to cart</div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="images/Moto/moto-nexus-6.jpg" />
+                </div>
+                <div class="product-title">Nexus 6 Moto</div>
+                <div class="product-price">50000</div>
+                <div class="add-to-cart">Add to cart</div>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+		</div>
+		<div class="footer-bar">
+            <div class="copyright marginBottomClass">
+                Copyright 2018. All rights reserved
+            </div>
+            <div class="quick-link">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">about us</a>
+                        </li>
+                        <li>
+                            <a href="">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    	</div>
+</body>
+
+</html>

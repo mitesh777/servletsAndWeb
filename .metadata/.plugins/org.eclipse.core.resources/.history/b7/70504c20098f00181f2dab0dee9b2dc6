@@ -1,0 +1,67 @@
+package com.pratian.travelapp.jdbc;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.List;
+
+import com.pratian.jdbc.MySQLConnector;
+import com.pratian.travelapp.dao.AirlineDao;
+import com.pratian.travelapp.entity.Airline;
+
+public class DAOImplementation implements AirlineDao {
+
+	@Override
+	public void createAirline(Airline a) {
+		// TODO Auto-generated method stub
+		Connection connection = MySQLConnector.connectToDB();
+		try {
+			Statement stmt = connection.createStatement();
+			String sql = "insert into airlines(airline_name,service_type) "
+					+ "values ('"+a.getAirlineName()+"','"+a.getServiceType()+"')";
+			stmt.executeUpdate(sql);
+			System.out.println("successfully added");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	@Override
+	public Airline retrieveAirline(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllDomesticAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllInternationalAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateAirline(Airline a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAirline(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

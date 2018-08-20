@@ -1,0 +1,52 @@
+package com.pratian.travelapp.jdbc;
+
+import java.util.List;
+
+import com.pratian.travelapp.dao.AirlineDao;
+import com.pratian.travelapp.entity.Airline;
+
+public class DAOImplementation implements AirlineDao {
+
+	@Override
+	public void createAirline(Airline a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Airline retrieveAirline(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllDomesticAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Airline> retrieveAllInternationalAirlines() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateAirline(Airline a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAirline(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

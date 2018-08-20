@@ -1,0 +1,12 @@
+127.0.0.1 - - [07/Aug/2018:12:52:32 +0530] "GET / HTTP/1.1" 404 1036
+127.0.0.1 - - [07/Aug/2018:12:52:54 +0530] "GET /LibraryEE/ HTTP/1.1" 500 308
+127.0.0.1 - - [07/Aug/2018:12:53:05 +0530] "POST /LibraryEE/HomePageServlet HTTP/1.1" 200 157
+127.0.0.1 - - [07/Aug/2018:12:53:09 +0530] "GET /LibraryEE/login.html HTTP/1.1" 304 -
+127.0.0.1 - - [07/Aug/2018:12:54:15 +0530] "POST /LibraryEE/HomePageServlet HTTP/1.1" 200 413
+127.0.0.1 - - [07/Aug/2018:12:54:27 +0530] "GET /LibraryEE/ViewBooksServlet HTTP/1.1" 200 578
+127.0.0.1 - - [07/Aug/2018:12:54:29 +0530] "GET /LibraryEE/ViewBookServlet?bookId=2 HTTP/1.1" 200 702
+127.0.0.1 - - [07/Aug/2018:12:55:47 +0530] "GET /LibraryEE/ViewBookServlet?bookId=3 HTTP/1.1" 200 700
+127.0.0.1 - - [07/Aug/2018:12:56:01 +0530] "GET /LibraryEE/AddToBasketServlet?bookId=3&quantity=2 HTTP/1.1" 200 497
+127.0.0.1 - - [07/Aug/2018:14:46:16 +0530] "GET / HTTP/1.1" 404 1036
+127.0.0.1 - - [07/Aug/2018:14:46:16 +0530] "GET /LibraryEE/ HTTP/1.1" 500 308
+127.0.0.1 - - [07/Aug/2018:14:46:28 +0530] "POST /LibraryEE/HomePageServlet HTTP/1.1" 200 413

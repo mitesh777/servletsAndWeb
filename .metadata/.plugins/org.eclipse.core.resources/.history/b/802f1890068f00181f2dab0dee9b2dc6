@@ -1,0 +1,5 @@
+package com.pratian.travelapp.entity;
+
+public class Airline {
+
+}

@@ -1,0 +1,18 @@
+
+public class ProjectManager extends Employee{
+	private double performanceBonus;
+	private double getPerformanceBonus;
+	public double getPerformanceBonus() {
+		return performanceBonus;
+	}
+	public void setPerformanceBonus(double performanceBonus) {
+		this.performanceBonus = performanceBonus;
+	}
+	public double getGetPerformanceBonus() {
+		return getPerformanceBonus;
+	}
+	public void setGetPerformanceBonus(double getPerformanceBonus) {
+		this.getPerformanceBonus = getPerformanceBonus;
+	}
+	
+}

@@ -1,0 +1,39 @@
+package Assignment3;
+
+public class Student implements Comparable<Student>{
+	private int studentId;
+	private String studentName;
+	private int studentScore;
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public int getStudentScore() {
+		return studentScore;
+	}
+	public void setStudentScore(int studentScore) {
+		this.studentScore = studentScore;
+	}
+	public Student(int studentId, String studentName, int studentScore) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentScore = studentScore;
+	}
+	public Student() {
+		super();
+	}
+	
+	@Override
+	public int compareTo(Object o) {
+		return 0;
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Contact app</h1>
+	<hr>
+	<input type="text" id="txtName" placeholder="Enter Name"/>
+	<br>
+	<button id="btnAdd" onclick="addContact()">Add Contact</button>
+	<br>
+	<h4>Contacts</h4>
+	<div>
+	<ol id="contacts">
+		
+	</ol>
+	</div>
+	<script type="text/javascript">
+		
+		//add contact
+		function addContact(){
+			var contactObj = document.getElementById("txtName");
+			var name = contactObj.value;
+			displayContact(name);
+		}
+	
+		function displayContact(name){
+			var contactObj = document.getElementById("contacts");
+			var str = "<li>" + name + "</li>";
+			contactObj.innerHTML = str;
+		}
+	
+	
+	</script>
+</body>
+</html>
